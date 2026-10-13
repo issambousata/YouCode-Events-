@@ -7,6 +7,12 @@ body{
     line-height: 30px;
     padding: 20px 0px 20px 15px;
 }
+#A_venir {
+    background-color: aquamarine;
+}
+#A_venir img{
+    width: 100%;
+}
 h1 , h2 , h3{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
