@@ -7,8 +7,31 @@
     <link rel="stylesheet" href="css/accueil.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
 </head>
 <body>
+  <header>
+        <a href="index.html">
+            <h3 id="logo">Youcode <span>Events</span></h3>
+        </a>
+        <i id="menu_icon" class="fa-solid fa-bars"></i>
+        <nav class="Navbar"> 
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="evenements.html">Événements</a></li>
+                <li><a href="intervenants.html">Intervenants</a></li>
+            </ul>
+            <a href="inscription.html" id="inscrire">S'inscrire</a>
+        </nav>
+    </header> 
+    
+     <main>
+        <p>Saison 2026-2027</p>
+        <h1>Tous les événements YouCode, au même endroit</h1>
+        <p>Ateliers, conférences, hackathons et rencontres avec des professionnels : consultez le programme et inscrivez-vous en quelques clics.</p>
+        <button>Voir les événements</button>
+        <button>S'inscrire</button>
+     </main>
     <footer class="footer-page">
       <div class="dispaly-flex">
         <div class="style-text">
@@ -41,6 +64,15 @@
        
       </div>
     </footer>
+    <script>
+        const menuIcon = document.querySelector("#menu_icon") ;
+        const navbar = document.querySelector('.Navbar');
+        menuIcon.addEventListener('click' , ()=>{
+            menuIcon.classList.toggle('fa-x')
+            navbar.classList.toggle('active')
+        })
+        
+    </script>
 
 
 </body>

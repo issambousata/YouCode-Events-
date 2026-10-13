@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouCode-Events</title>
+    <link rel="stylesheet" href="css/evenements.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <h3 id="logo">Youcode <span>Events</span></h3>
+        </a>
+        <i id="menu_icon" class="fa-solid fa-bars"></i>
+        <nav class="Navbar"> 
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="evenements.html">Événements</a></li>
+                <li><a href="intervenants.html">Intervenants</a></li>
+            </ul>
+            <a href="inscription.html" id="inscrire">S'inscrire</a>
+        </nav>
+    </header>
+    <main>
+    </main>
+    <script>
+        const menuIcon = document.querySelector("#menu_icon") ;
+        const navbar = document.querySelector('.Navbar');
+        menuIcon.addEventListener('click' , ()=>{
+            menuIcon.classList.toggle('fa-x')
+            navbar.classList.toggle('active')
+        })
+        
+    </script>
+</body>
+</html>
+
