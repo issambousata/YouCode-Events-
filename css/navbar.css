@@ -64,23 +64,26 @@ header nav #inscrire {
     header nav {
         display: none;
         position: fixed;
-        width: 90%;
+        width: 70%;
         top: 70px;
+        right: 0px;
+        height: 100%;
         text-align: center;
-        margin: auto;
-
+        background-color: black;
+        
     } 
     header nav ul {
-        line-height: 40px;
+        line-height: 70px;
         padding: 0px;
         text-align: center;
         width:fit-content;
-        margin: 0px auto 10px auto ;
+        margin: 30px auto 10px auto ;
         display: block;
     } 
 
     header nav a {
         display: block;
+        color: #FFFFFF;
     }
     #menu_icon {
         display:block;
@@ -97,7 +100,6 @@ header nav #inscrire {
     header nav {
         display: flex;
         flex-wrap: wrap;
-
     }
     header nav ul {
         gap: 10px;
