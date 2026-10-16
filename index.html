@@ -1,13 +1,195 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouCode-Events</title>
-    <link rel="stylesheet" href="css/accueil.css">
-    <link rel="stylesheet" href="css/navbar.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>youCode Events</title>
+    <link rel="stylesheet" href="css/accueil.css">      
     <link rel="stylesheet" href="css/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">    
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/navbargolbar.css">
 </head>
 <body>
+      <header>
+        <a href="index.html">
+            <h3 id="logo">Youcode <span>Events</span></h3>
+        </a>
+        <i id="menu_icon" class="fa-solid fa-bars"></i>
+        <nav class="Navbar"> 
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="evenements.html">Événements</a></li>
+                <li><a href="intervenants.html">Intervenants</a></li>
+            </ul>
+            <a href="inscription.html" id="inscrire">S'inscrire</a>
+        </nav>
+    </header> 
+    <section class="hero">
+        <div class="container">
+            <span class="items1">Saison 2026-2027</span>
+              <h1>Tous les événements  YouCode, au même  endroit</h1>
+              <p>  Ateliers, conférences, hackathons et  rencontres avec des professionnels :  consultez le programme et inscrivez-  vous en quelques clics.</p>
+              <div class ="btn">
+               <button>Voir les événements</button>
+               <button class="btn-btn">S'inscrire</button>
+               </div>
+                <img src="assets/images/Image héros.png" alt="this image for hero">
+        </div>
+    </section>
+     
+<section class="Prochains-événements">
+    <div class="container1">
+
+        <div class="en-tete-de-section">
+            <h2>Prochains événements</h2>
+            <span class="items">Tous les événements &rarr;</span>
+        </div>
+
+        <div class="grille-de-cartes1">
+
+            <!-- Carte 1 -->
+            <div class="dev1">
+                <img class="image01" src="assets/images/flexbox.webp" alt="Atelier CSS">
+                <span class="Atelier">Atelier</span>
+                <h3>Atelier Flexbox et CSS Grid</h3>
+                <p><i class="fa-regular fa-calendar"></i> 12 nov. 2026 14h00</p>
+                <p><i class="fa-solid fa-location-dot"></i> Salle Turnig YouCode Safi</p>
+                <span class="items">Voir le détail &rarr;</span>
+            </div>
+
+            <!-- Carte 2 -->
+            <div class="dev1">
+                <img class="image02" src="assets/images/Hackathon-Green-Code.webp" alt="Conférence sur l'accessibilité Web">
+                <span class="items1">Conférence</span>
+                <h3>Accessibilité Web : par où commencer ?</h3>
+                <p><i class="fa-regular fa-calendar"></i> 19 nov. 2026 · 10h00</p>
+                <p><i class="fa-solid fa-location-dot"></i> Amphithéâtre, YouCode Youssoufia</p>
+                <span class="items">Voir le détail &rarr;</span>
+            </div>
+
+            <!-- Carte 3 -->
+            <div class="dev1">
+                <img class="image04" src="assets/images/Accessibilité-Web.webp" alt="Hackathon Green Code">
+                <span class="Atelier">Hackathon</span>
+                <h3>Hackathon Green Code</h3>
+                <p><i class="fa-regular fa-calendar"></i> 28 et 29 nov. 2026</p>
+                <p><i class="fa-solid fa-location-dot"></i> Campus YouCode Safi</p>
+                <span class="items">Voir le détail &rarr;</span>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+  <section class="chiffer-cles">
+    <div class="countainer3">
+        <div>
+            <div>
+                <p class="pa">40+</p>
+                <p class="pa2">événements par an</p>
+            </div>
+
+            <div>
+               <p class="pa">25</p>
+               <p class="pa2" >intervenants</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <p class="pa">1 200</p>
+                <p class="pa2">participants</p>
+            </div>
+            <div>
+                <p class="pa">12</p>
+                <p class="pa2">partenaires</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+<section class="categoires">
+  <h2>Explorer par catégorie</h2>
+     <div class="container4">
+         
+        
+         <div class="Grille-catégories1">
+              <p class="items3"><i class="fa-solid fa-wrench"></i></p>
+              <p class="p3">Ateliers</p>
+              <p>14 événements</p>
+         </div>
+
+         <div class="Grille-catégories1">
+
+          <p class="items3"><i class="fa-solid fa-microphone"></i></p>
+            <p class="p3">Conférences</p>
+            <p>14 événements</p>
+
+         </div>
+
+         <div class="Grille-catégories1">
+            <p class="items3"><i class="fa-solid fa-code"></i></p>
+            <p class="p3">Hackathons</p>
+            <p>14 événements</p>
+
+
+         </div>
+
+         <div  class="Grille-catégories1">
+            <p class="items3"><i class="fa-solid fa-person"></i></p>
+            <p class="p3">Rencontres</p>
+            <p>14 événements</p>
+
+         </div>
+
+     </div>
+
+</section>
+ <footer class="footer-page">
+      <div class="dispaly-flex">
+        <div class="style-text">
+        <h3 class="titre-footer"><span>YouCode</span> <span>Events</span></h3>
+        <p class="p4">Les ateliers, conférences, hackathons et rencontres de <br />YouCode, réunis au même endroit.</p>
+      </div>
+      <div class="style-liste">
+        
+        <ul>
+          <li class="text-tst">Navigation</li>
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">Événements</a></li>
+          <li><a href="#">Intervenants et partenaires</a></li>
+          <li>
+            <a href="inscription.html">Inscription</a>
+          </li>
+        </ul>
+      </div>
+      <div class="style-liste">
+        
+         <ul>
+          <li  class="text-tst">Contact </li>
+          <li><a href="#">contact@youcode-events.example</a></li>
+          <li>Youssoufia · Safi · Nador</li>
+         </ul>
+      </div>
+    </div>
+      <div id="paragraph" class="style-text">
+      <p>&copy; 2026 YouCode Events — site fictif réalisé en formation.</p>
+       
+      </div>
+    </footer>
+
+     
+
+   <script>
+        const menuIcon = document.querySelector("#menu_icon") ;
+        const navbar = document.querySelector('.Navbar');
+        menuIcon.addEventListener('click' , ()=>{
+            menuIcon.classList.toggle('fa-x')
+            navbar.classList.toggle('active')
+        })
+        
+    </script>
 </body>
 </html>

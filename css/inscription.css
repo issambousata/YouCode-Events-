@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+     font-family: "DM Sans", sans-serif;
+
+}
+.tite-page{
+    padding: 20px 10px 20px 40px;
+    background-color: #FFEDD5;
+    line-height: 1.5;
+      
+}
+
+p{
+    color: #57534E;
+     font-weight: 400;
+     font-size: 18px;
+      font-family: "DM Sans", sans-serif;
+      line-height: 1.5;
+}
+h1{
+    color: black;
+    font-weight: 700;
+    font-size: 32px;
+     font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.formulaire{
+     display: flex;
+     justify-content: center;
+    width: fit-content;
+    margin-top: 40px;
+    
+     padding: 20px 20px 20px 10px;
+    border: 1px #E7E5E4 solid;
+    border-radius: 30px;
+    box-shadow: 10px cadetblue;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    margin-bottom: 30px;
+   
+   
+}
+.countainer2{
+   line-height: 1.5;
+   
+}
+.tete-formulaire{
+    line-height: 9px;
+   
+}
+
+
+label{
+    display: block;
+    padding-top: 20px;
+    color: #1C1917;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.nom-prenom{
+   line-height: 1.5;
+   font-weight: 400;
+   font-size: 14px;
+   color: #15803D; 
+}
+
+.E-mail-telephone{
+    line-height: 1.5;
+     color:#B91C1C;
+     font-weight: 400;
+     font-size: 14px;
+     padding-top: 10px; 
+      
+
+}
+.btn{
+     width: 100%;
+    padding: 13px 16px;
+    margin: 0 0 14px;
+    border: 2px solid #c2410c;
+    border-radius: 8px;
+    background-color: #c2410c;
+    color: white;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width:768px) and (max-width:1440px) {
+
+     .formulaire{
+      margin:  auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 50%;
+
+     }
+     .nom-prenom > form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+      }
+      .E-mail-telephone > form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+      }
+      .choisi > form {
+            display: grid;
+            grid-template-columns: 1fr;
+      }
+      
+      #btn-btn {
+       width: 50%;
+      }
+}
+
+
+
+   
+     
