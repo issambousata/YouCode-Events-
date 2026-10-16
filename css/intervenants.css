@@ -1,0 +1,119 @@
+main {
+    /* background-color: #f8f2f2; */
+}
+body  p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+
+}
+ h1 , h2 , h3 ,h4 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+#hero {
+    background-color: #FFEDD5;
+    line-height: 30px;
+    padding: 20px 0px ;
+}
+#hero h1 ,#hero p {
+    width: 90vW;
+    margin:30px auto;
+}
+#cards article{
+    background-color: #FFFFFF;
+    border: 2px solid #c5b9b9;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+#cards article p{
+    color :#57534E ;
+    font-size:smaller;
+}
+
+#cards {
+    display: grid;
+    width: 90vw;
+    margin: auto;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+#cards article .role {
+    color: #C2410C;
+    font-size: small;
+    font-weight: 600;
+}
+#Intervenants .Intervenants_head {
+    width: 90vw;
+    margin:50px auto 30px auto;
+    
+}
+#Partenaires {
+    background-color: #FFFFFF;
+    margin-top: 70px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+#Partenaires>h2 ,#Partenaires>p {
+    width: 90vW;
+    margin:30px auto;
+    
+}
+#Partenaires>p  {
+    color: #57534E;
+
+}
+#cards_Partenaires {
+    display: grid;
+    width: 90vw;
+    margin: auto;
+    gap: 15px;
+    grid-template-columns:1fr 1fr;
+}
+#cards_Partenaires div {
+    height: 80px;
+    display: flex;
+    border: 2px solid #57534E;
+    border-radius: 10px;
+    padding: 5px;
+    gap: 10px;
+    align-items: center;
+    color: #57534E;
+}
+#cards_Partenaires div i {
+    font-size:xx-large;
+}
+/* tablette */
+@media screen and (min-width : 760px) and (max-width:1439px)  {
+
+    #cards {
+        grid-template-columns:1fr 1fr;
+    }
+    #cards_Partenaires {
+        grid-template-columns:1fr 1fr 1fr;
+    }
+}
+
+/* desctop */
+@media screen and (min-width : 1440px)  {
+
+    #cards {
+        grid-template-columns:1fr 1fr 1fr;
+        width: 85vW;
+        
+    }
+    #cards_Partenaires {
+        width: 85vW;
+        grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    #Intervenants .Intervenants_head {
+        width: 85vw;
+    }
+    #hero h1 ,#hero p {
+        width: 85vW;
+    }
+}

@@ -5,14 +5,78 @@ body{
 #hero {
     background-color: #FFEDD5;
     line-height: 30px;
-    padding: 20px 0px 20px 15px;
+    padding: 20px 0px ;
+}
+#hero h1 , p {
+    width: 90vw;
+    margin:30px auto;
 }
 #A_venir {
-    background-color: aquamarine;
+    width: 100%;
+    margin:40px auto;
 }
-#A_venir img{
+#A_venir #A_venir_cards {
+    width: 90vw;
+    margin: auto;
+}
+#A_venir h6 {
+    color: #57534E;
+    font-weight: 400;
+    font-size: small;
+    width: 90vw;
+    margin:10px auto 30px auto;
+}
+#A_venir h2 {
+    width: 90vw;
+    margin:0px auto 15px auto;
+}
+#A_venir #A_venir_cards img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#A_venir #A_venir_cards>div {
+    border: 1px solid #00000022;
+    border-radius: 10px;
+    margin:15px auto;
     width: 100%;
 }
+#A_venir #A_venir_cards h3 , #A_venir #A_venir_cards p {
+    margin: 20px auto;
+    width: 90%;
+}
+#A_venir #A_venir_cards h6{
+    padding: 10px;
+    margin: 16px;
+    border-radius: 100px;
+    width: fit-content;
+}
+.orange_head {
+    background-color: #FFEDD5;
+}
+.green_head {
+        background-color: #CCFBF1;
+
+}
+#A_venir #A_venir_cards p {
+    color: #57534E;
+    font-size: small;
+}
+#A_venir #A_venir_cards #detail{
+    color: #C2410C;
+    width: 90%;
+    font-size: small;
+    font-weight: 600;
+    margin:15px auto;
+    
+}
+#A_venir #detail a {
+    color: #C2410C;
+    text-decoration: none;
+    
+}
+
+
 h1 , h2 , h3{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -20,7 +84,40 @@ h1 , h2 , h3{
 }
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-p{
+p , a{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
+}
+
+@media screen and (min-width : 376px) and (max-width :769px ) {
+     #A_venir #A_venir_cards div {
+        width: 48%;
+    }
+    #A_venir_cards {
+        width: 90vw;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-between;
+    }
+    
+}
+@media screen and (min-width : 770px) {
+    #A_venir #A_venir_cards div {
+        width: 32%;
+    }
+    #A_venir #A_venir_cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-between;
+        width: 85%;
+    }
+    #hero h1 , p {
+        width: 85%;
+    }
+    #A_venir h2 ,#A_venir h6 {
+        width: 85%;
+    }
+    
 }
