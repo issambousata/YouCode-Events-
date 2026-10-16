@@ -8,7 +8,7 @@ body{
     padding: 20px 0px ;
 }
 #hero h1 , p {
-    width: 90%;
+    width: 90vw;
     margin:30px auto;
 }
 #A_venir {
@@ -16,18 +16,18 @@ body{
     margin:40px auto;
 }
 #A_venir #A_venir_cards {
-    width: 90%;
+    width: 90vw;
     margin: auto;
 }
 #A_venir h6 {
     color: #57534E;
     font-weight: 400;
     font-size: small;
-    width: 90%;
+    width: 90vw;
     margin:10px auto 30px auto;
 }
 #A_venir h2 {
-    width: 90%;
+    width: 90vw;
     margin:0px auto 15px auto;
 }
 #A_venir #A_venir_cards img{
@@ -94,6 +94,7 @@ p , a{
         width: 48%;
     }
     #A_venir_cards {
+        width: 90vw;
         display: flex;
         flex-wrap: wrap;
         gap: 10px;

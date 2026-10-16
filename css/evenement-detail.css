@@ -1,0 +1,49 @@
+main {
+    width: 90vw;
+    margin:30px auto;
+}
+main img {
+    width: 100%;
+}
+main .green_head{
+    padding: 10px;
+    margin: 16px;
+    border-radius: 100px;
+    width: fit-content;
+    background-color: #CCFBF1;
+}
+main .detail_footer {
+    margin-top: 30px;
+    color: #57534E;
+    font-size: small;
+}
+.btn div {
+    width:  100%;
+    color: #FFFFFF;
+    padding: 20px;
+    margin: 15px auto;
+    text-align: center;
+    background-color: #1c816b;
+    border-radius: 10px;
+}
+.btn div a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.retour_btn {
+    margin-top: 20px;
+}
+@media screen and (min-width : 768px) {
+    main {
+        width: 85vw;
+    }
+    main .detail_footer {
+        display: flex;
+        justify-content: space-around;
+    }
+    .btn {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+}
