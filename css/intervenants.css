@@ -116,4 +116,8 @@ body  p {
     #hero h1 ,#hero p {
         width: 85vW;
     }
+    #Partenaires>h2 ,#Partenaires>p {
+        width: 85vW;
+    
+    }
 }
