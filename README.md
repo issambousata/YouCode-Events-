@@ -19,15 +19,28 @@ L'objectif de ce projet est de concevoir une maquette complète et un Design Sys
 
 ## 👥 Équipe et Répartition des Pages
 
-| Membre | Rôle | Page(s) Assignée(s) & Responsabilités |
-| :--- | :--- | :--- |
-| **[Nom Membre 1]** | Lead Git & Integrator | **Accueil (`index.html`)** & Configuration globale du CSS (`style.css`) |
-| **[Nom Membre 2]** | UI/UX & Integrator | **Événements (`evenements.html`)** & Grille de cartes responsive |
-| **[Nom Membre 3]** | Integrator & QA | **Détail d'un événement (`evenement-detail.html`)** & Navigation mobile accessible |
-| **[Nom Membre 4]** | Integrator & Accessibility | **Intervenants & Partenaires (`intervenants.html`)** |
-| **[Nom Membre 5]** | Integrator & Form Specialist | **Inscription (`inscription.html`)** & Validation accessible des formulaires |
 
----
+### 1. Faissal
+- `index.html` : Page d'accueil
+- `inscription.html` : Page d'inscription
+- Footer réutilisable
+
+### 2. Issam
+- `evenements.html` : Liste des événements
+- `evenement-detail.html` : Détails d'un événement
+- `intervenants.html` : Intervenants et partenaires
+- Header réutilisable
+- `menu.js` : Gestion du menu de navigation
+
+### Fichiers communs
+- `css/` : Styles globaux et responsive design
+- `assets/images/` : Images du projet
+- `README.md` : Documentation du projet
+
+### Workflow Git
+- Chaque membre travaille sur sa branche `feature/*`.
+- Les modifications sont intégrées via des Pull Requests vers `develop`.
+- La branche `main` contient la version finale validée.
 
 ## 🛠️ Technologies Utilisées
 
