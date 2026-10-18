@@ -42,16 +42,20 @@ L'objectif de ce projet est de concevoir une maquette complète et un Design Sys
 ## 📁 Structure du Projet
 
 ```text
-youcode-events/
-├── index.html                # Page d'accueil (Hero, événements à venir, chiffres clés, catégories)
-├── evenements.html           # Liste complète des événements (Grille responsive 1 à 3 colonnes)
-├── evenement-detail.html     # Fiche détaillée (Programme, intervenants, infos pratiques)
-├── intervenants.html         # Page des intervenants et partenaires
-├── inscription.html          # Formulaire d'inscription accessible avec validation native
-├── css/
-│   ├── style.css             # Design system, variables CSS, styles communs, réinitialisation
-│   └── responsive.css        # Media queries mobile-first globales et par composant
+## Structure du projet
+
+```text
+YouCode-Events-/
+├── .vscode/
 ├── assets/
-│   ├── images/               # Captures d'écran et illustrations du site
-│   └── icons/                # SVG et icônes
-└── README.md                 # Documentation du projet
+│   └── images/
+├── css/
+├── index.html
+├── evenements.html
+├── evenement-detail.html
+├── intervenants.html
+├── inscription.html
+├── menu.js
+└── README.md
+```
+
